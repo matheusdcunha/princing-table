@@ -1,0 +1,27 @@
+.font-1-xl {
+  font: 700 3rem/1.12 "Open Sans", sans-serif;
+}
+
+.font-1-l {
+  font: 700 2.37rem/1.28 "Open Sans", sans-serif;
+}
+
+.font-1-sl {
+  font: 700 1.25rem/1.4 "Open Sans", sans-serif;
+}
+
+.font-1-m-sb {
+  font: 600 1.125rem/1.33 "Open Sans", sans-serif;
+}
+
+.font-1-m {
+  font: 400 1.125rem/1.33 "Open Sans", sans-serif;
+}
+
+.font-1-s {
+  font: 600 1rem/1.31 "Open Sans", sans-serif;
+}
+
+.font-1-xs {
+  font: 400 0.875rem/1.35 "Open Sans", sans-serif;
+}
