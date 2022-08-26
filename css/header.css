@@ -1,4 +1,4 @@
-.header {
+.bg {
   background-color: var(--cor-p1);
   height: 50vh;
 }
@@ -10,4 +10,20 @@
 
 .header-container h1 {
   margin-bottom: 20px;
+}
+
+.header-container p {
+  padding-bottom: 60px;
+}
+
+@media (max-width: 600px) {
+  br {
+    display: none;
+  }
+  .header-container h1 {
+    font: 700 2.37rem/1.28 "Open Sans", sans-serif;
+  }
+  .header-container p {
+    font: 400 1rem/1.31 "Open Sans", sans-serif;
+  }
 }

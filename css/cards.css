@@ -1,0 +1,124 @@
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+.card {
+  background-color: var(--cor-0);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 60px;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px rgba(142, 150, 185, 0.25);
+  box-sizing: border-box;
+}
+
+.card-basico {
+  gap: 40px;
+  align-self: stretch;
+  margin-bottom: -10px;
+}
+
+.header-card-basico {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--cor-p2);
+  padding: 20px 20px 0px 30px;
+  border-radius: 8px 8px 0px 0px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 1px 2px rgba(142, 150, 185, 0.25);
+  align-items: center;
+}
+
+.header-card-basico span {
+  padding: 8px 24px;
+  background-color: var(--cor-p1);
+  border-radius: 40px;
+  display: inline-block;
+  margin-top: -10px;
+}
+
+.card h2 {
+  padding-bottom: 20px;
+}
+
+.card-basico h2 {
+  padding-bottom: 0px;
+  margin-bottom: 20px;
+  padding-top: 8px;
+}
+
+.card-preco {
+  padding-bottom: 10px;
+}
+
+.card-desc {
+  padding-bottom: 20px;
+  border-bottom: solid 1px #eeeeee;
+  margin-bottom: 20px;
+}
+
+.card li {
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.card li::before {
+  content: "";
+  background: url(../assets/icon/check.svg) no-repeat center;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  margin-right: 8px;
+}
+
+.card a {
+  border: 1px solid var(--cor-p1);
+  padding: 12px 120px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.card-basico a {
+  background-color: var(--cor-p1);
+  color: var(--cor-0);
+  margin-bottom: 40px;
+}
+
+.card-texto {
+  padding: 30px 30px 0px 30px;
+}
+
+.card-texto-basico {
+  padding: 0px 30px;
+}
+
+.card a {
+  align-self: center;
+}
+
+@media (max-width: 1200px) {
+  .cards-container {
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+  .profissional {
+    border-top: 1px solid rgba(142, 150, 185, 0.25);
+  }
+}
+
+@media (max-width: 600px) {
+  .card-texto {
+    padding: 15px 15px 0px 15px;
+  }
+
+  .card-texto-basico {
+    padding: 0px 15px;
+  }
+}
